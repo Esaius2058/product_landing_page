@@ -12,7 +12,7 @@
   }
   
   main{
-    padding-top: 7rem;
+    padding-top: 9rem;
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -77,9 +77,9 @@
     color: #388e3c;
   }
   
-  .form{
+  #form{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
   }
   
@@ -103,12 +103,12 @@
     width: 100%;
     max-width: 180px;
     height: 1.8rem;
-    position: relative;
-    top: 15;
-    left: 2rem;
     background-color: #388e3c;
     color: #fff59d;
     border: 1px solid #006A4E;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
   }
   
   #submit:hover{
@@ -130,6 +130,7 @@
   
   #products{
     color: #006A4E;
+    margin-top: 3rem;
   }
   
   #products img{
